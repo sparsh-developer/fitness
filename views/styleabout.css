@@ -1,0 +1,84 @@
+#section-contaener{
+    height: 778px;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.box1{
+    z-index: -1;
+    height: 778px;
+    width: 717px;
+    /* border: 2px solid red; */
+    
+}
+.box1 img{
+    height: 778px;
+    width: 680px;
+}
+.box1 p{
+  
+    padding: 4px 108px;
+    margin: 8px 3px;   
+}
+.box1 h2{
+    display: block;
+    text-align: center;
+    padding: 26px 122px;
+    margin: 13px 7px;
+    font-size: 38px;
+ 
+}
+#section-myabout{
+    height: 744px;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box2{
+    height: 729px;
+    width: 657px
+    
+}
+.box2 img{
+    height: 710px;
+    width: 668px;  
+}
+
+.box2 p{
+  
+    padding: 4px 108px;
+    margin: 8px 3px;
+}
+
+.box2 h2{
+    display: block;
+    text-align: center;
+    padding: 26px 122px;
+    margin: 13px 7px;
+    font-size: 38px;
+ 
+}
+#section-myimg{
+    height: 270px;
+    width: 99.7%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+}
+.box3{
+    height: 256px;
+    width: 99.7%;
+    margin: 10px 2px;
+    padding: 1px 1px;
+    /* border: 2px solid red; */
+    padding-right: 0px;
+}
+.box3 img{
+    height: 250px;
+    width: 100%;
+   
+}

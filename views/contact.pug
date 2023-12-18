@@ -1,0 +1,26 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+     style 
+      include style.css
+      include stylecontact.css
+      include phone.css
+
+block content 
+    section#myconts
+        h5 Sk Fitness center 
+        p Make your body perfect of workout
+    section#mycontact
+       div.mycont
+         h1 Contact Us    
+         form(action="/", method="post", Class="myform")
+           input(type="text", Class="myinput", name="name" placeholder="Enter your name")
+           input(type="text", Class="myinput", name="age" placeholder="Enter your age")
+           input(type="phone ", Class="myinput", name="phone" placeholder="Enter your phone numbar")
+           input(type="email", Class="myinput", name="email" placeholder="Enter your email id") 
+           button(Class="btnn")
+               | Submit
+               

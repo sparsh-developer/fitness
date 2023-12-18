@@ -1,0 +1,84 @@
+#imgaesection{
+    /* height: 778px; */
+    /* border: 1px solid red; */
+    /* width: 100%; */
+display: flex;
+   
+}
+.boxe1 img{
+    
+    height: 500px;
+    width: 100.3%;
+    
+}
+.boxe1{
+    height: 500px;
+    width: 99.7%;
+    
+    z-index: -1;
+}
+
+#class{
+    height: 103px;   
+}
+
+#class h2{
+    
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 54px;
+    margin: 48px;
+}
+#myclasses {
+    
+    height: 300px;
+   
+}
+.name {
+    
+    color: black;
+    
+}
+.cards ul {
+    display: flex;
+    flex-direction: row;
+   
+}
+.cards{
+    height: 50px;
+    margin-top: 27px;
+}
+.cards li{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.cards li a{
+   
+    text-decoration: none;
+    font-size: 23px;
+    /* border: 2px solid black; */
+    border-radius: 13px;
+    padding: 1px 187px;
+   /* padding-left: 30px; */
+    margin: 10px 0px;
+    /* margin-left: 10px; */
+    
+   
+}
+
+.btns{
+    display: block;
+    padding: 3.8px 10px;
+    margin: 0.4px 172px;
+    }
+
+
+.btns:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}

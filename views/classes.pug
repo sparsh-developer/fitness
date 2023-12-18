@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+     style 
+      include style.css
+      include styleclasses.css
+      include phone.css
+
+block content
+    section#imgaesection
+      div.boxe1
+        img(src="/static/bg4.jpg", alt="error") 
+    section#class 
+        h2 Our classes
+
+    section#myclasses 
+       div.cards
+         ul
+            li #[a(href="") Base Hitt...........]
+            li #[a(href="") 40]
+            button.btns Book now
+       hr  
+         
+       div.cards
+         ul
+            li #[a(href="") Base Strength.... ]
+            li #[a(href="") 40]
+            button.btns Book now
+       hr
+
+       div.cards
+         ul
+            li #[a(href="") Base Endurance ]
+            li #[a(href="") 40]
+            button.btns Book now 
+       hr
